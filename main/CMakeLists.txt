@@ -8,7 +8,7 @@ idf_component_register(SRCS ${sources}
                     INCLUDE_DIRS "."
                     REQUIRES
                         esp32-wifi-manager
-                        mbgw
+                        esp32-modbusTCP2RTU-gateway-lib
 
                         mdns
 )
